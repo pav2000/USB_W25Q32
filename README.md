@@ -7,9 +7,9 @@ When the board is connected to the computer via USB, a flash drive appears on it
 <img src="https://github.com/pav2000/USB_W25Q32/blob/main/Picture/001.jpg" width="480"/> <br>
 As an example, the developer board described here is used: https://github.com/pav2000/DevBoardSTM32F103CBT<br>
 <img src="https://github.com/pav2000/USB_W25Q32/blob/main/Picture/002.jpg" width="480"/> <br>
-The function of the device is as follows.
-Device is plugged into USB on a computer.
-Device identifies as a MASS STORAGE DEVICE.
-Files can be created by the device that the computer can read.
-Files can be placed onto the drive that the device can read. A config file for example.
+The function of the device is as follows.<br>
+Device is plugged into USB on a computer.<br>
+Device identifies as a MASS STORAGE DEVICE.<br>
+Files can be created by the device that the computer can read.<br>
+Files can be placed onto the drive that the device can read. A config file for example.<br>
 <br>
