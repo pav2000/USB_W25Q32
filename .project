@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>USB_W25Q32</name>
+	<name>USB_W25Q_FATFS</name>
 	<comment></comment>
 	<projects>
 	</projects>
