@@ -64,17 +64,18 @@
   */
 
 #define STORAGE_LUN_NBR                  1
-#define STORAGE_BLK_NBR                  0x10000
-#define STORAGE_BLK_SIZ                  0x200
+//#define STORAGE_BLK_NBR                  0x10000
+//#define STORAGE_BLK_SIZ                  0x200
 
 /* USER CODE BEGIN PRIVATE_DEFINES */
 //#define MEM   // использовать оперативку иначе флеш
+
 #ifndef MEM
-#define STORAGE_BLK_NBR                  0x2000
-#define STORAGE_BLK_SIZ                  0x200
+	#define STORAGE_BLK_NBR                  0x2000
+	#define STORAGE_BLK_SIZ                  0x200
 #else
-#define STORAGE_BLK_NBR                  20  // enter twice the size of the RAM that you want to use
-#define STORAGE_BLK_SIZ                  0x200
+	#define STORAGE_BLK_NBR                  20  // enter twice the size of the RAM that you want to use
+	#define STORAGE_BLK_SIZ                  0x200
 uint8_t buffer[STORAGE_BLK_NBR*STORAGE_BLK_SIZ];
 #endif
 /* USER CODE END PRIVATE_DEFINES */

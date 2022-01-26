@@ -43,7 +43,7 @@
 /* Private variables ---------------------------------------------------------*/
 SPI_HandleTypeDef hspi1;
 DMA_HandleTypeDef hdma_spi1_tx;
-
+void USB_Reset(void);
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
